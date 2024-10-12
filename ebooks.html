@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-books - Master Music Theory</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b4f72;
+        }
+
+        /* Header styles with logo and navigation aligned */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #21618c;
+            padding: 10px 20px;
+        }
+
+        /* Logo styles */
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .logo-container a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.75em;
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #aeb6bf;
+        }
+
+        /* Main section */
+        main {
+            margin: 0;
+            padding: 6px;
+            background-image: url(https://lirp.cdn-website.com/e00ccc9d/dms3rep/multi/opt/Laptop-and-Sheet-Music-f9a77e34-1920w.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+            height: 525px;
+        }
+
+        /* E-books Container */
+        .ebooks-container {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 1400px;
+            height: auto; /* Allow height to adjust based on content */
+            margin: 40px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .ebooks-container h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .ebooks-container p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .ebooks-container ul {
+            margin-bottom: 30px;
+            padding-left: 20px; /* Indents the list */
+        }
+
+        .ebooks-container li {
+            font-size: 1.2em;
+            color: #444;
+            margin-bottom: 15px; /* Adds space between list items */
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #aeb6bf;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive design */
+        @media (max-width:768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .ebooks-container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo and Website Title -->
+        <div class="logo-container">
+            <img src="https://imgur.com/iCEGD9E.png" alt="Website Logo">
+            <a href="#">Master Music Theory</a>
+        </div>
+
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="ebooks-container">
+                <h2>E-books</h2>
+                <p>Explore our collection of e-books designed to enhance your understanding of music theory. These resources cover various topics and levels to support your musical education.</p>
+                <ul>
+                    <li><a href="link_to_ebook1.pdf" target="_blank"><strong>Understanding Music Theory:</strong> A comprehensive guide for beginners.</a></li>
+                    <li><a href="link_to_ebook2.pdf" target="_blank"><strong>Advanced Harmony Techniques:</strong> In-depth strategies for complex harmony.</a></li>
+                    <li><a href="link_to_ebook3.pdf" target="_blank"><strong>Music Composition 101:</strong> Essential concepts for aspiring composers.</a></li>
+                    <li><a href="link_to_ebook4.pdf" target="_blank"><strong>Ear Training Exercises:</strong> Practice materials to improve your aural skills.</a></li>
+                    <li><a href="link_to_ebook5.pdf" target="_blank"><strong>The History of Western Music:</strong> A detailed overview of significant periods and styles.</a></li>
+                </ul>
+                <p>Feel free to download these e-books to enrich your learning experience and dive deeper into the world of music theory!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 All rights reserved | Master Music Theory</p>
+    </footer>
+
+</body>
+</html>

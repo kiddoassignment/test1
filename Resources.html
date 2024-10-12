@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Music Theory | Resources</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #1b4f72;
+    }
+
+    /* Header styles with logo and navigation aligned */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #21618c;
+        padding: 10px 20px;
+    }
+
+    /* Logo styles */
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-container img {
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .logo-container a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.75em;
+    }
+
+    /* Navigation styles */
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2em;
+    }
+
+    nav ul li a:hover {
+        color: #aeb6bf;
+    }
+
+    /* Main section */
+    main {
+        margin: 0px;
+        padding: 20px;
+        background-image: url(https://lirp.cdn-website.com/e00ccc9d/dms3rep/multi/opt/Laptop-and-Sheet-Music-f9a77e34-1920w.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+
+    /* Footer styles */
+    footer {
+        text-align: center;
+        padding: 1em;
+        background-color: #aeb6bf;
+        margin-top: 20px;
+    }
+
+     /* Card details */
+        .container {
+            display: flex;
+            justify-content: space-around; /* Align cards horizontally with space around */
+            align-items: flex-start; /* Align items to the start */
+            flex-wrap: wrap; /* Allow wrapping to next line on smaller screens */
+            margin: 20px; /* Add margin for spacing */
+            height: 65vh;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 400px; /* Fixed width for each card */
+            width: 100%;
+            height: auto;
+            padding: 20px; /* Add padding inside cards */
+            margin: 10px; /* Add margin between cards */
+            text-align: center;
+            display: flex;
+    		flex-direction: column;
+   			justify-content: space-between;
+        }
+		
+		.card-text {
+ 			display: flex;
+ 		    flex-direction: column;
+ 		    height: 100%; /* Ensure the card-text takes the full height of the card */
+		}
+		
+        .card-text h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            margin-top: auto;
+            color: #333;
+
+        }
+        
+        .card img {
+   			 width: 100%;
+ 			 height: auto;
+  			 border-radius: 10px;
+    		 margin-bottom: 20px;
+		}
+
+        .card-text p {
+            font-size: 1.5em; /* Adjusted paragraph size */
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            margin-top: auto;
+        }
+        
+        .card-text a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2874a6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            margin-top: auto;
+        }
+
+        .card-text a.button:hover {
+            background-color: #1b4f72;
+        }
+    
+
+    /* Responsive design */
+    @media (max-width:768px) {
+
+        header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        nav ul {
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .container {
+        	 flex-direction: column; /* Stack cards vertically on small screens */
+             align-items: center; /* Center align cards */
+          }
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo and Website Title -->
+        <div class="logo-container">
+            <img src="https://imgur.com/iCEGD9E.png" alt="Website Logo">
+            <a href="#">Master Music Theory</a>
+        </div>
+
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <section>
+        <div class="container">
+            <div class="card">
+                <div class="card-text">
+                    <h2>E-books</h2>
+                    <div style="text-align: center;">
+                    <img src=https://craiganderton.org/wp-content/uploads/2024/04/CoverGroupShot.jpg alt="E-books" style="width: 75%; height: auto; border-radius: 10px;">
+                    </div>
+                    <a href="ebooks.html" class="button">View</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-text">
+                    <h2>Sheet Music</h2>
+                    <div style="text-align: center;">
+                    <img src=https://cdn.pixabay.com/photo/2022/03/09/21/40/song-7058726_640.jpg alt="Sheet Music" style="width: 100%; height: 245px; border-radius: 10px;">
+                    </div>
+                    <a href="sheetmusic.html" class="button">View</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-text">
+                    <h2>Videos</h2>
+                    <div style="text-align: center;">
+                    <img src=https://jazztutorial.com/media/site/be14681948-1727754580/jazz-tutorial-julian-bradley-jazz-piano-lessons-1200x628-crop-q70.jpg alt="Videos" style="width: 100%; height: 242px; border-radius: 10px;">
+                    </div>
+                    <a href="videos.html" class="button">View</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer>
+        <p>© 2024 All rights reserved | Master Music Theory</p>
+    </footer>
+
+</body>
+</html>

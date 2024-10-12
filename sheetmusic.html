@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheet Music - Master Music Theory</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b4f72;
+        }
+
+        /* Header styles with logo and navigation aligned */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #21618c;
+            padding: 10px 20px;
+        }
+
+        /* Logo styles */
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .logo-container a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.75em;
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #aeb6bf;
+        }
+
+        /* Main section */
+        main {
+            margin: 0;
+            padding: 6px;
+            background-image: url(https://lirp.cdn-website.com/e00ccc9d/dms3rep/multi/opt/Laptop-and-Sheet-Music-f9a77e34-1920w.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+            height: 525px;
+        }
+
+        /* Sheet Music Container */
+        .sheet-music-container {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 1400px;
+            height: auto; /* Allow height to adjust based on content */
+            margin: 40px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .sheet-music-container h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .sheet-music-container p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .sheet-music-container ul {
+            margin-bottom: 30px;
+            padding-left: 20px; /* Indents the list */
+        }
+
+        .sheet-music-container li {
+            font-size: 1.2em;
+            color: #444;
+            margin-bottom: 15px; /* Adds space between list items */
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #aeb6bf;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive design */
+        @media (max-width:768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .sheet-music-container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo and Website Title -->
+        <div class="logo-container">
+            <img src="https://imgur.com/iCEGD9E.png" alt="Website Logo">
+            <a href="#">Master Music Theory</a>
+        </div>
+
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="sheet-music-container">
+                <h2>Sheet Music</h2>
+                <p>Welcome to our Sheet Music page! Here you can find a collection of sheet music for various instruments and skill levels. Whether you are a beginner or an advanced musician, we have resources to support your practice.</p>
+                <ul>
+                    <li><a href="link_to_sheet_music1.pdf" target="_blank"><strong>Beginner Piano Pieces:</strong> A collection of easy piano compositions for new learners.</a></li>
+                    <li><a href="link_to_sheet_music2.pdf" target="_blank"><strong>Intermediate Guitar Songs:</strong> Popular songs arranged for intermediate guitarists.</a></li>
+                    <li><a href="link_to_sheet_music3.pdf" target="_blank"><strong>Orchestral Excerpts:</strong> Essential excerpts for aspiring orchestral musicians.</a></li>
+                    <li><a href="link_to_sheet_music4.pdf" target="_blank"><strong>Vocal Scores:</strong> A variety of vocal scores for different voice types.</a></li>
+                    <li><a href="link_to_sheet_music5.pdf" target="_blank"><strong>Jazz Standards:</strong> Classic jazz standards arranged for various instruments.</a></li>
+                </ul>
+                <p>Feel free to download the sheet music and enhance your musical skills!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 All rights reserved | Master Music Theory</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - Master Music Theory</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b4f72;
+        }
+
+        /* Header styles with logo and navigation aligned */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #21618c;
+            padding: 10px 20px;
+        }
+
+        /* Logo styles */
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .logo-container a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.75em;
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #aeb6bf;
+        }
+
+        /* Main section */
+        main {
+            margin: 0;
+            padding: 6px;
+            background-image: url(https://lirp.cdn-website.com/e00ccc9d/dms3rep/multi/opt/Laptop-and-Sheet-Music-f9a77e34-1920w.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+            height: 525px;
+        }
+
+        /* Videos Container */
+        .videos-container {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 1400px;
+            height: auto; /* Allow height to adjust based on content */
+            margin: 40px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .videos-container h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .videos-container p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .videos-container ul {
+            margin-bottom: 30px;
+            padding-left: 20px; /* Indents the list */
+        }
+
+        .videos-container li {
+            font-size: 1.2em;
+            color: #444;
+            margin-bottom: 15px; /* Adds space between list items */
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #aeb6bf;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive design */
+        @media (max-width:768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .videos-container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo and Website Title -->
+        <div class="logo-container">
+            <img src="https://imgur.com/iCEGD9E.png" alt="Website Logo">
+            <a href="#">Master Music Theory</a>
+        </div>
+
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="videos-container">
+                <h2>Videos</h2>
+                <p>Explore our collection of instructional videos designed to enhance your understanding of music theory. From beginner concepts to advanced techniques, our videos provide valuable insights and practical demonstrations.</p>
+                <ul>
+                    <li><a href="link_to_video1.mp4" target="_blank"><strong>Understanding Musical Notation:</strong> A comprehensive guide to reading music.</a></li>
+                    <li><a href="link_to_video2.mp4" target="_blank"><strong>Chord Progressions Explained:</strong> Learn the fundamentals of building chord progressions.</a></li>
+                    <li><a href="link_to_video3.mp4" target="_blank"><strong>Scales and Modes:</strong> An introduction to major, minor scales, and modes.</a></li>
+                    <li><a href="link_to_video4.mp4" target="_blank"><strong>Introduction to Counterpoint:</strong> Basics of composing in counterpoint.</a></li>
+                    <li><a href="link_to_video5.mp4" target="_blank"><strong>Music Theory for Songwriters:</strong> Tips for incorporating music theory into songwriting.</a></li>
+                </ul>
+                <p>Feel free to click on the links to watch the videos and deepen your music theory knowledge!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 All rights reserved | Master Music Theory</p>
+    </footer>
+
+</body>
+</html>
